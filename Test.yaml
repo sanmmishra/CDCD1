@@ -16,9 +16,9 @@ parameters:
     description: "Image to use to boot the servers"
     type: string
   server_keypair: 
-    default: KeyPairOS1
+    default: a_test
     description: "Please create the keypair before launching this stack"
-    label: "Keypair to set for the servers"
+    label: a_test
     type: string
 resources:
    my_web_instance:
